@@ -1,0 +1,1 @@
+-Prepared statements, which helps to protect database from sql injections.

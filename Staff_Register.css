@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.btn1{
+	width: 90px;
+	height: 30px;
+	background-color: green;
+	color: white;
+	border: none;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+.btn1:hover{
+	background-color: purple;
+}
+.linkbtn{
+	color: white;
+	text-decoration: none;
+}
+label{
+	width: 200px;
+	display: inline-block;
+	font-weight: bold;
+}
+input{
+	font-weight: bold;
+	border: 1px solid green;
+	padding: 5px;
+	width: 400px;
+}
+.gender{
+	width: 15px;
+}
+h2{
+	padding: 20px;
+}
+.heading{
+	background-color: green;
+	color: white;
+}
+.body{
+	padding: 20px;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.lfDiv{
+	width: auto;
+	height: auto;
+}
+.mdDiv{
+	width: auto;
+	height: auto;
+	border: 4px solid green;
+}
+.rtDiv{
+	width: auto;
+	height: auto;
+}
+@media(max-width: 750px){
+	input{
+		width: 100%;
+	}
+	.gender{
+		width: 15px;
+	}
+	label{
+		width: 150px;
+	}
+	.Gender{
+	float: right;
+	}
+	.Gen{
+		width: 100px;
+	}
+}
